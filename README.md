@@ -1,4 +1,4 @@
-# Realtime cake app using Node-express-mongo-socket.io
+# College project sem-V realtime cake app using Node-express-mongo-socket.io
 
 ![Realtime cake app]
 

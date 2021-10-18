@@ -15,6 +15,13 @@
                 </div>
                 <span class="flex-1"><%= pizza.qty %></span>
                 <span class="font-bold text-lg">₹ <%= pizza.item.price * pizza.qty %></span>
+                <div class="ml-4">
+                    <button data-pizza="<%= JSON.stringify(pizza) %>"
+                        class="delete-from-cart py-0.5 px-2 rounded-full flex items-center font-bold">
+                        <span>✖</span>
+                        <!-- <span class="ml-4"></span> -->
+                    </button>
+                </div>
             </div>
             <%  } %>
 

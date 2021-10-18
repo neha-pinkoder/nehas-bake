@@ -334,19 +334,22 @@ section.hero {
   background: #FFF5FD;
 }
 
-.add-to-cart {
+.add-to-cart,
+.delete-from-cart {
   border: 2px solid #E79CC2;
   color: #E79CC2;
   transition: all 0.3s ease-in-out;
 }
 
-.add-to-cart:hover {
+.add-to-cart:hover,
+.delete-from-cart:hover {
   background: #E79CC2;
   border-color: #fff;
   color: #fff;
 }
 
-.add-to-cart:focus {
+.add-to-cart:focus,
+.delete-from-cart:focus {
   outline: none;
 }
 
@@ -440,7 +443,7 @@ section.status {
 }
 
 .status-box ul li:nth-child(3) span:before {
-  content: "\F818";
+  content: "\F1FD";
 }
 
 .status-box ul li:nth-child(4) span:before {
